@@ -1,0 +1,149 @@
+.popup
+  position: fixed
+  background-color: rgba(0,0,0,.43)
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  z-index: 2
+  &__inner
+    background-color: #ffffff
+    color: #333333
+    font-weight: normal
+    max-width: 990px
+    width: 100%
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    padding: 75px 30px
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 50px
+    display: flex
+    flex-flow: column
+    align-items: center
+    +xs(font-size, 16px)
+    +lg(min-width, 80%)
+    +sm(min-width, initial)
+  &__title
+    background: linear-gradient(135.34deg, #C2D93C 0%, #2D6B27 100%)
+    text-transform: uppercase
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    width: max-content
+    font-size: 36px
+    line-height: 43px
+    font-weight: normal
+    margin-bottom: 20px
+    +sm-block()
+      font-size: 26px
+    +xs(font-size, 22px)
+    +xss(font-size, 20px)
+  &__close
+    font-size: 30px
+    position: absolute
+    right: 40px
+    top: 25px
+    line-height: 1
+    cursor: pointer
+    &:after
+      content: ''
+      background: no-repeat center/contain
+      width: 26px
+      height: 26px
+      display: block
+      background-image: url(/img/close-popup.svg)
+
+.homepage__slider
+  margin-bottom: 40px
+.homepage__slider-inner
+  .slider__img
+    width: 100%
+    height: 450px
+    object-fit: cover
+    +xs(height, 350px)
+  .slider__figure
+    // transform: scale(1.1)
+    +sm-block()
+      transition: 0.5s
+      z-index: 50
+      border-width: 6px;
+      border-style: solid;
+      border-image: linear-gradient(167.87deg, #C2D93C 0%, #2D6B27 100%)
+      border-image-slice: 1
+      position: relative
+  .slick-slide
+    padding: 30px 0
+    z-index: 20
+    +xs(padding, 5px)
+  .slick-center figure img
+    filter: brightness(40%)
+    transition: 0.4s
+  .slick-center .slider__text
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    z-index: 51
+    display: block
+    text-align: center
+  .slider__item
+    position: relative
+  .slider__text
+    display: none
+    h3
+      color: #C2D93C
+      font-weight: normal
+      font-size: 36px
+      text-transform: uppercase
+      +xs(font-size, 26px)
+    span
+      display: block
+  .slick-dots
+    display: flex!important
+    flex-wrap: wrap
+    justify-content: center
+    margin-top: 30px
+    li
+      width: 20px
+      margin: 0 5px
+      padding: 5px
+      cursor: pointer
+      button
+        font-size: 0
+        display: block
+        width: 11px
+        height: 11px
+        border: 1px solid transparent
+        background: #174b25
+        border-radius: 50%
+        transition: 0.3s all
+    .slick-active
+      button
+        transform: scale(1.4)
+
+.slider__block
+  position: absolute
+  display: flex
+  justify-content: center
+  top: 30px
+  right: calc(50% - 450px)
+  width: 270px
+  background: #fff
+  height: 451px
+  transform: skew(20deg)
+  +md(right, calc(50% - 350px))
+  +sm(display, none)
+  &-txt
+    display: flex
+    justify-content: space-around
+    flex-flow: column
+    transform: skew(-10deg)
+    p
+      font-weight: normal
+      color: #174b25
+      border-bottom: 3px solid #174b25
+      padding-bottom: 10px
+      max-width: max-content
+      &:nth-child(3)
+        align-self: center

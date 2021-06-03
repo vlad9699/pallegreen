@@ -1,0 +1,140 @@
+{
+  "homepage": {
+    "top": {
+      "title": "Wood pellets",
+      "desc": "energy of nature"
+    },
+    "subTop": {
+       "title": "Galeon Company",
+       "desc": "Galeon Company (Khmelnitsky, Ukraine) is a reliable manufacturer of Pellegreeno and Pellegreeno Premium wood pellets, offering high quality products and favorable pellet cost.",
+       "desc1": "You always have the opportunity to buy pellets from warehouses from our dealers in Poland and Italy or to order direct delivery from the place of production and quickly receive the goods through thoughtful logistics!",
+       "desc2": "Order"
+    },
+    "center": {
+     "title": "OUR PRODUCTS",
+     "desc": "Wood pellets Pellegreeno",
+     "desc1": "Wood pellets Pellegreeno Premium",
+     "img":   "img/homepage-wood.png",
+     "img1": "img/homepage-premwood.png"
+    },
+    "bottom": {
+     "desc": "Do you need quality wood pellets with delivery?",
+     "desc1": "Call: +38 067 311 48 85",
+     "desc2": "Feedback"
+    }
+  },
+
+  "about": {
+    "top": {
+     "title": "ABOUT US",
+     "desc": "Galeon Company (Khmelnitsky, Ukraine) is a Pellegreeno and Pellegreeno Premium wood pellet manufacturer, which aims to occupy a significant place in the market of quality wood pellets in Poland and the EU.",
+     "desc1": "Production capacity is about 2000 tons per month. All production processes are monitored in the production of pine sawdust, which is made by grinding wood at the place of production of pellets, undergoes a drying process and is granulated. By purchasing Pellegreeno and Pellegreeno Premium pellets, you are guaranteed to receive environmentally friendly products.",
+     "desc2": "Galeon aims to provide the highest quality products to the buyer! Our team works on a daily basis to produce products that meet all existing standards and requirements! All products undergo triple quality control! We work every day to improve all stages of production, keep up with the times, follow the trends in the market for pelletizing equipment to provide the buyer with fuel that will meet all its requirements! We bring warmth and comfort to any private home, office buildings, hospitals, schools, kindergartens or industrial premises, making your stay comfortable! We love our work!",
+     "img": "img/big-logo.png"
+    },
+    "center": {
+     "title": "OUR ADVANTAGES"
+   }
+  },
+  "aboutList": [
+   {"title": "Reliable business partner", "desc": "Galleon fulfills its obligations in full to all its Customers.", "img": "img/about-serv11.png"},
+   {"title": "A high quality", "desc": "The company guarantees the quality of the whole range. Products meet European standards in key characteristics and indicators.", "img": "img/about-serv22.png"},
+   {"title": "Thoughtful logistics", "desc": "The company has the ability to deliver the ordered goods from a warehouse in Poland or direct delivery from production to the customer, which reduces the final cost of pellets.", "img": "img/about-serv33.png"},
+   {"title": "Affordable price", "desc": "In our products the high quality and the optimal price of pellets are harmoniously combined.", "img": "img/about-serv44.png"}
+ ],
+ "header": [
+   {"title": "Home", "url": "main"},
+   {"title": "About us", "url": "about"},
+   {"title": "Product", "url": "product"},
+   {"title": "Contacts", "url": "contacts"}
+ ],
+
+ "product": {
+   "top": {
+     "title": "OUR PRODUCTS",
+     "desc": "Pellegreeno and Pellegreeno Premium wood pellets are an environmentally friendly fuel that is actively used to produce heat when burned in solid fuel boilers.",
+     "desc1": "Wood fuels are renewable energy sources, they are produced by the method of pressing prepared wood pulp.",
+     "desc2": "Wood pellets in the world today are a worthy alternative to traditional fuels, such as diesel, coal, firewood, natural gas and more.",
+     "img": "img/product-top.png"
+ },
+ "center": {
+     "title": "PACKAGING",
+     "desc": "We supply Pellegreeno and Pellegreeno Premium pellets in the following packaging:",
+     "desc1": "Polyethylene bags weighing 15 kg",
+     "desc2": "1 t polypropylene bags with a weight of 1 t",
+     "img": "img/product-bag1.png",
+     "img1": "img/product-bag2.png"
+ },
+ "bottom": {
+     "title": "QUALITY DOCUMENTS",
+     "desc": "Quality documents that you can read"
+ }
+ },
+ "palletInfo": [
+   {"title": "Wood Pellets Pellegreeno Premium",
+     "desc": "Raw materials: coniferous tree species",
+     "desc1": "Diameter: 6 mm",
+     "desc2": "Length - up to 35 mm",
+     "desc3": "Humidity - not more than 8%",
+     "desc4": "Ash content - not more than 0.6%",
+     "desc5": "Combustion heat - not less than 18500 KJ / kg",
+     "desc6": "Bulk density - not less than 625 kg / m3",
+     "desc7": "Mechanical strength - not less than 95%",
+     "price": "Price - from 110 EURO / 1 t",
+     "img": "img/about-prod2.png"},
+
+    {"title": "Wood Pellets Pellegreeno",
+     "desc": "Raw materials: coniferous tree species",
+     "desc1": "Diameter: 6 mm",
+     "desc2": "Length - up to 35 mm",
+     "desc3": "Humidity - not more than 8%",
+     "desc4": "Ash content - not more than 0.8%",
+     "desc5": "Combustion heat - not less than 18500 KJ / kg",
+     "desc6": "Bulk density - not less than 625 kg / m3",
+     "desc7": "Mechanical strength - not less than 95%",
+     "price": "Price - from 100 EURO / 1 t",
+     "img": "img/about-prod1.png" }
+ ],
+ "contacts": {
+   "top": {
+     "title": "OUR CONTACTS",
+     "desc": "Write or call us: we are always happy to give you a free consultation and answer any questions."
+ }
+ },
+ "contactsInfo": [
+   {"title": "Galeon Company Office:", "desc": "29000, Ukraine, Khmelnytskyi, str. Bandera, 33 / 2A", "desc1": "E-mail: galeon.teplocom@gmail.com", "desc2": "Phone: +38 067 311 48 85"},
+   {"title": "Product Composition:", "desc": "30400, Ukraine, Khmelnytsky region, Shepetivka, st. R. Mazunova, 25/2", "desc1": "29000, Ukraine, Khmelnytskyi, str. Ternopilska, 17 / 1E", "desc2": "33010, Ukraine, Rivne, str. Makarova, 16" },
+   {"title1": "Our dealers", "title": "RAO TERM office:", "desc": "35-326, Poland, Rzeszow, Str. T. Reitan, 23", "desc1": "E-mail: info@raotherm.com.pl www.raotherm.com.pl", "desc2": "Phone: +48 532 531 999", "desc3": "Phone: +48 723 590 400", "desc4": "Phone: +48 697 350 789"},
+   {"title": "Product Composition :", "desc": "36-073, Poland, Polikowka, Str. Recovery, 197B"},
+   {"title": "UBF INVEST office:", "desc": "320-026, Poland, Lublin, Str. F. Chopin, 8/19", "desc1": "E-mail: ubf.pellet@gmail.com  www.pellegreeno.com.pl ", "desc2": "Phone: +48 662 840 762,", "desc3": "Phone: +48 669 907 226"}
+ ],
+ "contactForm": {
+   "title": "Any questions? WRITE - WE WILL RESPOND",
+   "desc": "Your name",
+   "desc1": "Phone number",
+   "desc2": "Message",
+   "desc3": "Send"
+ },
+ "popUp": {
+   "title": "THANK YOU FOR THE MESSAGE",
+   "desc": "Our managers will contact you shortly."
+ },
+ "slider": {
+   "desc": "Technological ",
+   "sub": "production",
+   "desc1": "Thoughtful ",
+   "sub1": "logistics",
+   "desc2": "Available ",
+   "sub2": "prices",
+   "desc3": "the best ",
+   "sub3": "raw",
+   "desc4": "conifers ",
+   "sub4": "of trees"
+ },
+ "slider-block": {
+  "desc": "Quality raw materials",
+  "desc1": "Technological production",
+  "desc2": "Affordable prices"
+}
+ }
+

@@ -1,0 +1,161 @@
+.product__top
+    padding-top: 120px
+    margin-bottom: 80px
+    +sm(padding-top, 160px)
+    +xs-block()
+        margin-bottom: 40px
+    &:after
+        content: ''
+        background: url(/img/about-bg.png) no-repeat 50% 0;
+        position: absolute
+        top: 55px
+        z-index: -1
+        height: 100%
+        width: 100%
+    &-about
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        align-items: center
+        justify-items: center
+        +md(grid-template-columns, 1fr)
+        +xs(margin-bottom, 40px)
+        figure
+            +md(width, 350px)
+            +xs(width, 250px)
+    &-title
+        padding: 10px 10px 10px 80px
+        +md-block()
+            text-align: center
+            padding: 0
+        p
+            padding: 7px 0
+            line-height: 19px
+            font-weight: normal
+            text-indent: 20px
+            +xs(font-size, 14px)
+        h3
+            +md(margin, 0 auto)
+    &-pallet
+        &:after
+            content: ''
+            background: url(/img/product-bg-center.png) no-repeat 0 0;
+            position: absolute
+            top: 500px
+            z-index: -1
+            height: 1300px
+            width: 100%
+    &-item
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        grid-column-gap: 100px;
+        +sm(grid-template-columns, 1fr)
+        &:nth-of-type(1)
+            margin-bottom: 80px
+            +xs(margin-bottom, 40px)
+        figure
+            justify-self: flex-end
+            +sm-block()
+                justify-self: center
+                width: 350px
+            +xs(width, 250px)
+    &-txt
+        justify-self: flex-start
+        border: 8px solid white
+        background: white
+        border-radius: 10px
+        +sm(justify-self, center)
+        h5
+            font-size: 22px
+            font-weight: 500
+            line-height: 26px
+            margin-bottom: 10px
+            +xs(font-size, 18px)
+        p
+            font-size: 16px
+            line-height: 19px
+            font-weight: normal
+            padding: 10px 0
+            +xs(font-size, 14px)
+            &:nth-of-type(9)
+                font-size: 22px
+                background: linear-gradient(167.81deg, #FFDF02 0%, #C51E2B 100%)
+                text-transform: uppercase
+                -webkit-background-clip: text
+                -webkit-text-fill-color: transparent
+                width: max-content
+                +xs(font-size, 18px)
+.product__center
+    margin-bottom: 80px
+    +xs(margin-bottom, 40px)
+    &-txt
+        padding-left: 80px
+        margin-bottom: 60px
+        +sm-block()
+            padding: 0
+            text-align: center
+        p
+            font-size: 16px
+            font-weight: normal
+            +xs(font-size, 14px)
+        h3
+            +sm(margin, 0 auto)
+    &-bag
+        display: flex
+        justify-content: space-around
+        text-align: center
+        +sm(flex-flow, column)
+        figure
+            +xs-block()
+            width: 250px
+
+            img
+            margin: 0 auto
+        p
+            max-width: 350px
+            font-size: 22px
+            font-weight: 500
+            line-height: 26px
+            +sm(margin, 0 auto)
+            +xs(font-size, 18px)
+.product__bottom
+    margin-bottom: 80px
+    position: relative
+    +xs(margin-bottom, 40px)
+    &:after
+        content: ''
+        background: url(/img/product-bottom-bg.png) no-repeat 50% 0;
+        position: absolute
+        bottom: 0
+        z-index: -1
+        height: 300px
+        width: 100%
+    &-txt
+        padding-left: 80px
+        margin-bottom: 60px
+        +sm(padding, 0)
+        +xs(margin-bottom, 40px)
+        p
+            font-size: 16px
+            font-weight: normal
+            +sm(text-align, center)
+            +xs(font-size, 14px)
+        h3
+            +sm(margin, 0 auto)
+    &-list
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        align-items: center
+        text-align: center
+        margin-bottom: 80px
+        +sm(flex-flow, column)
+    &-image
+        margin-bottom: 30px
+        p
+            font-size: 22px
+            line-height: 26px
+            font-weight: 500
+            +xs(font-size, 18px)
+            

@@ -1,0 +1,184 @@
+.home
+    margin-bottom: 15px
+    &__inner
+        display: flex
+        justify-content: center
+    &__top
+        background-image: url(/img/bg-home.png)
+        background-position: center
+        background-repeat: no-repeat
+        height: 430px
+        margin-bottom: 50px
+        &-tree
+            width: 200px
+            margin: 0 auto
+            +xs(width, 150px)
+            
+        &-title
+            text-align: center
+            line-height: 1.1
+            margin-bottom: 15px
+            color: #fff
+            +xs(margin-bottom, 35px)
+            h1
+                font-size: 80px
+                font-family: none
+                +xs(font-size, 48px)
+            h3
+                font-size: 40px
+                color: #fff
+                padding: 5px 20px
+                width: max-content
+                margin: 0 auto
+                font-family: none
+
+                -webkit-text-stroke: 0.3px black
+                +xs-block()
+                    font-size: 26px
+        &-language
+            display: grid
+            grid-template-columns: repeat(2, max-content)
+            justify-content: space-evenly
+            grid-row-gap: 20px
+            font-size: 30px
+            +sm-block()
+                font-size: 24px
+            +xs-block()
+                grid-template-columns: max-content
+                font-size: 18px
+        &-item
+            a
+                color: #fff
+                &:hover
+                    transition: 0.3s
+                    background-image: linear-gradient(172.65deg, #FFDF02 0%, #C51E2B 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent
+            &:nth-child(1)
+                &:before
+                    content: ''
+                    background: no-repeat center/contain
+                    width: 43px
+                    height: 24px
+                    display: inline-block
+                    background-image: url(/img/pol.png)
+                    margin-right: 5px
+            &:nth-child(2)
+                grid-row: span 2
+                align-self: center
+                +md-block()
+                    grid-row: none
+                &:before
+                    content: ''
+                    background: no-repeat center/contain
+                    width: 43px
+                    height: 24px
+                    display: inline-block
+                    background-image: url(/img/it.png)
+                    margin-right: 5px
+            &:nth-child(3)
+                &:before
+                    content: ''
+                    background: no-repeat center/contain
+                    width: 43px
+                    height: 24px
+                    display: inline-block
+                    background-image: url(/img/fr.png)
+                    margin-right: 5px
+            &:nth-child(4)
+                &:before
+                    content: ''
+                    background: no-repeat center/contain
+                    width: 43px
+                    height: 24px
+                    display: inline-block
+                    background-image: url(/img/uk.png)
+                    margin-right: 5px
+            &:nth-child(5)
+                grid-column: 3
+                +md-block()
+                    grid-column: span 2
+                    justify-self: center
+                +xs-block()
+                    grid-column: span 1
+                    justify-self: flex-start
+                &:before
+                    content: ''
+                    background: no-repeat center/contain
+                    width: 43px
+                    height: 24px
+                    display: inline-block
+                    background-image: url(/img/en.png)
+                    margin-right: 5px
+    &__bottom
+        background-image: url(/img/bg-home1.png)
+        background-position: center
+        background-repeat: no-repeat
+        height: 996px
+        +lg-block()
+            background-image: url(/img/bg-home2.png)
+            height: 895px
+        +md-block()
+            height: 891px
+        +sm-block()
+            background-image: url(/img/bg-home3.png)
+            height: 1206px
+        &-code
+            +md-block()
+                margin-top: 30px
+        &-title
+            display: grid
+            grid-template-columns: 1fr 2fr
+            align-items: center
+            +lg(padding-top, 70px)
+            +sm-block()
+                grid-template-columns: 1fr
+                grid-gap: 10px
+                padding-top: 130px
+            &--wrapp
+                justify-self: flex-start
+                font-size: 26px
+                margin-top: 35px
+                color: #fff
+                +lg(margin-top, 0)
+                +md(font-size, 22px)
+                +sm-block()
+                    font-size: 22px
+                    justify-self: center
+                +xs(font-size, 18px)
+            figure
+                width: 300px
+                justify-self: center
+                +lg(width, 180px)
+                +xs(width, 140px)
+            h3
+                text-align: center
+        &-pic
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            justify-items: center
+            align-items: flex-end
+            margin-bottom: 100px
+            +sm-block()
+                grid-template-columns: repeat(2, max-content)
+                justify-content: space-around
+                grid-gap: 15px
+            figure 
+                width: 250px
+                +lg(width, 180px)
+                +sm-block()
+                    &:nth-of-type(2)
+                        grid-row: 1/3
+                        align-self: center
+                +xs(width, 140px)
+        &-code
+            img 
+                margin: 0 auto
+    &__footer
+        margin-top: 30px
+        +sm(margin-top,70px)
+        h3
+            text-align: center
+            font-size: 18px
+            color: #fff
+            

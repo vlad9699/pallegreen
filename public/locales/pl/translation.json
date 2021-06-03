@@ -1,0 +1,137 @@
+{
+  "homepage": {
+    "top": {
+      "title": "Pelety drewniane",
+      "desc": "energia natury"
+    },
+    "subTop": {
+       "title": "Firma Galeon",
+       "desc": "Firma Galeon (Chmielnicki, Ukraina) to niezawodny producent granulatu drzewnego Pellegreeno i Pellegreeno Premium, oferujący produkty wysokiej jakości i korzystne koszty pelletu.",
+       "desc1": "Zawsze masz możliwość zakupu pelletu z magazynów od naszych dealerów w Polsce i we Włoszech lub zamówić bezpośrednią dostawę z miejsca produkcji i szybko otrzymać towar dzięki przemyślanej logistyce!",
+       "desc2": "Na zamówienie"
+    },
+    "center": {
+     "title": "NASZE PRODUKTY",
+     "desc": "Pelety drewniane Pellegreeno",
+     "desc1": "Pelety drewniane Pellegreeno Premium",
+     "img":   "img/homepage-wood.png",
+     "img1": "img/homepage-premwood.png"
+    },
+    "bottom": {
+     "desc": "Czy potrzebujesz wysokiej jakości pelletu drzewnego z dostawą?",
+     "desc1": "Zadzwoń: +38 067 311 48 85",
+     "desc2": "Informacje zwrotne"
+    }
+  },
+  "about": {
+    "top": {
+     "title": "O NAS",
+     "desc": "Galeon Company (Chmielnicki, Ukraina) jest producentem peletu drzewnego Pellegreeno i Pellegreeno Premium, który ma na celu zajmować znaczące miejsce na rynku wysokiej jakości peletów drzewnych w Polsce i UE.",
+     "desc1": "Moce produkcyjne wynoszą około 2000 ton miesięcznie. Wszystkie procesy produkcyjne są monitorowane w produkcji trocin sosnowych, które są wytwarzane przez mielenie drewna w miejscu produkcji pelletu, podlegają procesowi suszenia i są granulowane. Kupując pelety Pellegreeno i Pellegreeno Premium masz gwarancję otrzymania produktów przyjaznych dla środowiska.",
+     "desc2": "Galeon dąży do zapewnienia kupującemu produktów najwyższej jakości! Nasz zespół codziennie pracuje nad produkcją produktów spełniających wszystkie istniejące standardy i wymagania! Wszystkie produkty podlegają potrójnej kontroli jakości! Codziennie pracujemy nad ulepszaniem wszystkich etapów produkcji, nadążaniem za duchem czasu, podążaniem za trendami na rynku urządzeń do granulowania, aby zapewnić kupującemu paliwo, które spełni wszystkie jego wymagania! Zapewniamy ciepło i komfort każdemu domowi prywatnemu, budynkom biurowym, szpitalom, szkołom, przedszkolom lub obiektom przemysłowym, zapewniając komfortowy pobyt! Kochamy naszą pracę!",
+     "img": "img/big-logo.png"
+    },
+    "center": {
+      "title": "NASZE ZALETY"
+    }
+  },
+  "aboutList": [
+    {"title": "Niezawodny partner biznesowy", "desc": "Galleon w pełni wywiązuje się ze swoich zobowiązań przed wszystkimi oprócz klientów.", "img": "img/about-serv11.png"},
+    {"title": "Wysoka jakość", "desc": "Firma gwarantuje jakość całego asortymentu. Produkty spełniają europejskie standardy w zakresie kluczowych cech i wskaźników.", "img": "img/about-serv22.png"},
+    {"title": "Przemyślana logistyka", "desc": "Firma ma możliwość dostarczenia zamówionego towaru z magazynu w Polsce lub bezpośredniej dostawy z produkcji do klienta, co zmniejsza końcowy koszt peletu.", "img": "img/about-serv33.png"},
+    {"title": "Przystępna cena", "desc": "W naszych produktach harmonijnie łączy się wysoka jakość i optymalna cena pelletu.", "img": "img/about-serv44.png"}
+  ],
+  "header": [
+    {"title": "Strona główna", "url": "main"},
+    {"title": "O nas", "url": "about"},
+    {"title": "Produkty", "url": "product"},
+    {"title": "Kontakty", "url": "contacts"}
+  ],
+  "product": {
+    "top": {
+      "title": "NASZE PRODUKTY",
+      "desc": "Pellety drzewne Pellegreeno i Pellegreeno Premium są przyjaznym dla środowiska paliwem, które jest aktywnie wykorzystywane do wytwarzania ciepła podczas spalania w kotłach na paliwo stałe.",
+      "desc1": "Paliwa drzewne są odnawialnymi źródłami energii, są wytwarzane metodą prasowania przygotowanej pulpy drzewnej.",
+      "desc2": "Granulki drzewne na świecie są dziś godną alternatywą dla tradycyjnych paliw, takich jak olej napędowy, węgiel, drewno opałowe, gaz ziemny i inne.",
+      "img": "img/product-top.png"
+  },
+  "center": {
+      "title": "OPAKOWANIE",
+      "desc": "Dostarczamy pelety Pellegreeno i Pellegreeno Premium w następujących opakowaniach:",
+      "desc1": "Worki polietylenowe o wadze 15 kg",
+      "desc2": "1 t torebek polipropylenowych o masie 1 tony",
+      "img": "img/product-bag1.png",
+      "img1": "img/product-bag2.png"
+  },
+  "bottom": {
+      "title": "DOKUMENTY JAKOŚCI",
+      "desc": "Dokumenty wysokiej jakości, które można przeczytać"
+  }
+  },
+  "palletInfo": [
+    {"title": "Pelety drewniane Pellegreeno Premium",
+      "desc": "Surowce: gatunki drzew iglastych",
+      "desc1": "Średnica: 6 mm",
+      "desc2": "Długość - do 35 mm",
+      "desc3": "Wilgotność - nie więcej niż 8%",
+      "desc4": "Zawartość popiołu - nie więcej niż 0,6%",
+      "desc5": "Ciepło spalania - nie mniej niż 18500 KJ/kg",
+      "desc6": "Gęstość nasypowa - nie mniej niż 625 kg/m3",
+      "desc7": "Wytrzymałość mechaniczna - nie mniej niż 95%",
+      "price": "Cena - od 110 EURO / 1 tona",
+      "img": "img/about-prod2.png"},
+ 
+     {"title": "Pelety drewniane Pellegreeno",
+      "desc": "Surowce: gatunki drzew iglastych",
+      "desc1": "Średnica: 6 mm",
+      "desc2": "Długość - do 35 mm",
+      "desc3": "Wilgotność - nie więcej niż 8%",
+      "desc4": "Zawartość popiołu - nie więcej niż 0,8%",
+      "desc5": "Ciepło spalania - nie mniej niż 18500 KJ/kg",
+      "desc6": "Gęstość nasypowa - nie mniej niż 625 kg/m3",
+      "desc7": "Wytrzymałość mechaniczna - nie mniej niż 95%",
+      "price": "Cena - od 100 EURO / 1 tona",
+      "img": "img/about-prod1.png" }
+  ],
+  "contacts": {
+    "top": {
+      "title": "NASZE KONTAKTY",
+      "desc": "Napisz do nas lub zadzwoń: zawsze chętnie udzielimy bezpłatnej konsultacji i odpowiemy na wszelkie pytania."
+  }
+  },
+  "contactsInfo": [
+    {"title": "Biuro firmy Galeon:", "desc": "29000, Ukraina, Chmielnicki, str. Bandera, 33 / 2A", "desc1": "E-mail: galeon.teplocom@gmail.com", "desc2": "Telefon: +38 067 311 48 85"},
+    {"title": "Skład produktu:", "desc": "30400, Ukraina, obwód chmielnicki, Szepietówka, ul. R. Mazunova, 25/2", "desc1": "29000, Ukraina, Chmielnicki, str. Tarnopolska, 17 / 1E", "desc2": "33010, Ukraina, Równe, str. Makarova, 16 lat"},
+    {"title1": "Nasi dealerzy", "title": "Biuro RAO TERM:", "desc": "35-326, Polska, Rzeszów, Str. T. Reitan, 23", "desc1": "E-mail: info@raotherm.com.pl www.raotherm.com.pl", "desc2": "Telefon: +48 532 531 999", "desc3": "Telefon: +48 723 590 400", "desc4": "Telefon: +48 697 350 789"},
+    {"title": "Skład produktu :", "desc": "36-073, Polska, Polikówka, Str. Licząc, 197B"},
+    {"title": "Biuro UBF INVEST:", "desc": "320-026, Polska, Lublin, ul. F. Chopin, 8/19", "desc1": "E-mail: ubf.pellet@gmail.com  www.pellegreeno.com.pl ", "desc2": "Telefon: +48 662 840 762", "desc3": "Telefon: +48 669 907 226"}
+  ],
+  "contactForm": {
+    "title": "Jakieś pytania? NAPISZ - ODPOWIEMY",
+    "desc": "Twoje imie",
+    "desc1": "Numer telefonu",
+    "desc2": "Wiadomość",
+    "desc3": "Wyślij"
+  },
+  "popUp": {
+    "title": "DZIĘKUJEMY ZA WIADOMOŚĆ",
+    "desc": "Nasi menedżerowie skontaktują się z Tobą wkrótce."
+  },
+  "slider": {
+    "desc": "Technologiczny ",
+    "sub": "produkcja",
+    "desc1": "Miło ",
+    "sub1": "logistyka",
+    "desc2": "Dostępne ",
+    "sub2": "ceny",
+    "desc3": "najlepszy ",
+    "sub3": "surowce",
+    "desc4": "drzewa iglaste",
+    "sub4": "drzew"
+  },
+  "slider-block": {
+    "desc": "Surowce wysokiej jakości",
+    "desc1": "Produkcja technologiczna",
+    "desc2": "Przystępne ceny"
+  }
+ }

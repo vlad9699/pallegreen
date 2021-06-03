@@ -1,0 +1,160 @@
+.contacts
+    margin-bottom: 80px
+    padding-top: 90px
+    position: relative
+    +sm(padding-top, 120px)
+    &:after
+      content: ''
+      background: url(/img/about-bg.png) no-repeat 50% 0
+      top: -70px
+      z-index: -1
+      height: 100%
+      width: 100%
+      position: absolute
+      +xs(top, 50px)
+    +xs-block()
+        padding-top: 160px
+        margin-bottom: 40px
+    &__title
+        padding-left: 80px
+        margin-bottom: 40px
+        +md(padding, 0)
+        h3
+            margin-bottom: 15px
+            +md(margin, 0 auto)
+        p
+            font-size: 16px
+            font-weight: normal
+            line-height: 19px
+            max-width: 510px
+            +md-block()
+                text-align: center
+                max-width: none
+            +xs(font-size, 14px)
+    figure
+        margin-bottom: 80px
+        +xs(margin-bottom, 40px)
+        img
+            margin: 0 auto
+            width: 1350px
+    &__list
+        display: grid
+        // grid-template-columns: repeat(3, 1fr)
+        grid-template-columns: 1fr 1fr
+        justify-items: center
+        grid-gap: 20px
+        +md-block()
+            grid-template-columns: 1fr 1fr
+            grid-gap: 30px
+        +sm-block()
+            grid-template-columns: 1fr
+            grid-gap: 15px
+        +xs(justify-items, left)
+    &__item
+        max-width: 340px
+        &:nth-child(5)
+            // grid-column: span 2
+            // +sm(grid-column, auto)
+        h5
+            font-size: 22px
+            line-height: 26px
+            font-weight: 600
+            color: #174b25
+            text-transform: uppercase
+            width: max-content
+            margin-bottom: 10px
+            +xs(font-size, 18px)
+        p
+            font-size: 20px
+            font-weight: normal
+            line-height: 24px
+            padding: 10px 0
+            +xs(font-size, 14px)
+.feedback
+	min-height: 630px
+	+sm(min-height, auto)
+	+sm(padding-bottom, 28px)
+	&__container
+		max-width: 1000px
+		margin: 0 auto
+	&__inner
+		position: relative
+		margin-top: 80px
+		+xs(margin-top, 40px)
+		&:after
+			content: ''
+			background: url(/img/contacts-bg.png) no-repeat 50% 0;
+			position: absolute
+			top: 120px
+			z-index: -1
+			height: 100%
+			width: 100%
+	&__title
+		grid-column: span 2
+		color: #174b25
+		font-weight: 600
+		text-transform: uppercase
+		width: max-content
+		font-weight: normal
+		font-size: 26px
+		text-transform: uppercase
+		justify-self: center
+		+sm-block()
+			grid-column: 1/-1
+			text-align: center
+			font-size: 24px
+			text-align: left
+			text-transform: lowercase
+		+xs(font-size, 18px)
+		+xss(font-size, 14px)
+	&__form
+		max-width: 750px
+		display: grid
+		// grid-template-columns: 260px 1fr
+		grid-template-columns: 1fr 4fr
+		grid-column-gap: 20px
+		grid-row-gap: 10px
+		align-items: center
+		margin: 0 auto
+		box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+		border-radius: 50px
+		padding: 50px
+		z-index: 1
+		background: white
+		+sm-block()
+			grid-template-columns: 1fr
+			grid-gap: 0
+		+xs(padding, 15px)
+		+xss(padding, 20px)
+		input
+			box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25)
+			border-radius: 50px
+			max-width: 500px
+			border-color: transparent
+			-webkit-appearance: none
+			&[name="phone"]
+				max-width: 300px
+		label
+			text-align: center
+			+sm-block()
+				text-align: left
+				font-weight: 600
+				font-size: 12px
+				color: #828282
+				margin-top: 10px
+		textarea
+			max-width: 500px
+			box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25)
+			border-radius: 25px
+			border: transparent
+			-webkit-appearance: none
+		button
+			&[type="submit"]
+				grid-column: 1 / -1
+				justify-self: end
+				+sm(margin-top, 26px)
+input.valid
+	background: url(/img/checkmark.svg) no-repeat 98%;
+	background-size: auto 50%;
+button[type=submit][disabled]
+    background: #c4c4c4

@@ -1,0 +1,142 @@
+{
+  "homepage": {
+    "top": {
+      "title": "Pellet di legno",
+      "desc": "energia della natura"
+    },
+    "subTop": {
+       "title": "Galeon Company",
+       "desc": "Galeon Company (Khmelnitsky, Ucraina) è un produttore affidabile di pellet di Pellegreeno e Pellegreeno Premium, che offre prodotti di alta qualità e costi di pellet favorevoli.",
+       "desc1": "Hai sempre la possibilità di acquistare pellet dai magazzini dei nostri rivenditori in Polonia e in Italia o di ordinare la consegna diretta dal luogo di produzione e ricevere rapidamente la merce attraverso una logistica ponderata!",
+       "desc2": "Per ordinare"
+    },
+    "center": {
+     "title": "I NOSTRI PRODOTTI",
+     "desc": "Pellet di legno Pellegreeno",
+     "desc1": "Pellet di legno Pellegreeno Premium",
+     "img":   "img/homepage-wood.png",
+     "img1": "img/homepage-premwood.png"
+    },
+    "bottom": {
+     "desc": "Hai bisogno di pellet di legno di qualità con consegna?",
+     "desc1": "Chiama: +38 067 311 48 85",
+     "desc2": "Contattaci"
+    }
+  },
+  
+  "about": {
+    "top": {
+     "title": "CHI SIAMO",
+     "desc": "Galeon Company (Khmelnitsky, Ucraina) è un produttore di pellet di legno Pellegreeno e Pellegreeno Premium, che mira a conquistare un posto significativo nel mercato dei pellet di legno di qualità in Polonia e nell'UE.",
+     "desc1": "La capacità produttiva è di circa 2000 tonnellate al mese. Tutti i processi di produzione sono monitorati nella produzione di segatura di pino, che viene fatta macinando il legno nel luogo di produzione del pellet, viene sottoposta a un processo di essiccazione e viene granulata. Acquistando i pellet Pellegreeno e Pellegreeno Premium, hai la garanzia di ricevere prodotti rispettosi dell'ambiente.",
+     "desc2": "Galeon mira a fornire all'acquirente prodotti della massima qualità! Il nostro team lavora quotidianamente per produrre prodotti che soddisfano tutti gli standard e i requisiti esistenti! Tutti i prodotti sono sottoposti a un triplo controllo di qualità! Lavoriamo ogni giorno per migliorare tutte le fasi della produzione, tenere il passo con i tempi, seguire le tendenze del mercato delle attrezzature per la pellettizzazione per fornire all'acquirente un carburante in grado di soddisfare tutte le sue esigenze! Offriamo calore e comfort a qualsiasi casa privata, edificio per uffici, ospedale, scuola, scuola materna o locale industriale, per rendere il vostro soggiorno confortevole! Adoriamo il nostro lavoro!",
+     "img": "img/big-logo.png"
+    },
+    "center": {
+     "title": "I NOSTRI VANTAGGI"
+   }
+  },
+  "aboutList": [
+    {"title": "Partner commerciale affidabile", "desc": "Galleon adempie pienamente ai propri obblighi, tranne che ai suoi clienti.", "img": "img/about-serv11.png"},
+    {"title": "Alta qualità", "desc": "L'azienda garantisce la qualità dell'intera gamma. I prodotti soddisfano gli standard europei in termini di caratteristiche e indicatori chiave.", "img": "img/about-serv22.png"},
+    {"title": "Logistica ponderata", "desc": "La società ha la capacità di consegnare la merce ordinata da un magazzino in Polonia o la consegna diretta dalla produzione al cliente, il che riduce il costo finale del pellet.", "img": "img/about-serv33.png"},
+    {"title": "Prezzo accessibile", "desc": "Nei nostri prodotti l'alta qualità e il prezzo ottimale dei pellet si combinano armoniosamente.", "img": "img/about-serv44.png"}
+  ],
+  "header": [
+    {"title": "Casa", "url": "main"},
+    {"title": "Su di noi", "url": "about"},
+    {"title": "Produzione", "url": "product"},
+    {"title": "Contatti", "url": "contacts"}
+  ],
+  "product": {
+    "top": {
+      "title": "I NOSTRI PRODOTTI",
+      "desc": "I pellet di pellet Pellegreeno e Pellegreeno Premium sono un combustibile ecologico che viene attivamente utilizzato per produrre calore se bruciato in caldaie a combustibile solido.",
+      "desc1": "I combustibili legnosi sono fonti di energia rinnovabile, sono prodotti con il metodo di pressatura della pasta di legno preparata.",
+      "desc2": "I pellet di legno nel mondo oggi rappresentano una valida alternativa ai combustibili tradizionali, come diesel, carbone, legna da ardere, gas naturale e altro ancora.",
+      "img": "img/product-top.png"
+  },
+  "center": {
+      "title": "IMBALLAGGIO",
+      "desc": "Forniamo pellet Pellegreeno e Pellegreeno Premium nella seguente confezione:",
+      "desc1": "Sacchi di polietilene del peso di 15 kg",
+      "desc2": "Sacchi da 1 t in polipropilene con un peso di 1 t",
+      "img": "img/product-bag1.png",
+      "img1": "img/product-bag2.png"
+  },
+  "bottom": {
+      "title": "DOCUMENTI DI QUALITÀ",
+      "desc": "Documenti di qualità che puoi leggere"
+  }
+  },
+  "palletInfo": [
+    {"title": "Pellet di legno Pellegreeno Premium",
+      "desc": "Materie prime: specie di conifere",
+      "desc1": "Diametro: 6 mm",
+      "desc2": "Lunghezza - fino a 35 mm",
+      "desc3": "Umidità - non più dell'8%",
+      "desc4": "Contenuto di ceneri - non più dello 0,6%",
+      "desc5": "Calore di combustione - non inferiore a 18500 KJ/kg",
+      "desc6": "Densità apparente - non inferiore a 625 kg/m3",
+      "desc7": "Resistenza meccanica - non inferiore al 95%",
+      "price": "Prezzo - da 110 EURO / 1 tonnellata",
+      "img": "img/about-prod2.png"},
+ 
+     {"title": "Pellet di legno Pellegreeno",
+      "desc": "Materie prime: specie di conifere",
+      "desc1": "Diametro: 6 mm",
+      "desc2": "Lunghezza - fino a 35 mm",
+      "desc3": "Umidità - non più dell'8%",
+      "desc4": "Contenuto di ceneri - non più dello 0,8%",
+      "desc5": "Calore di combustione - non inferiore a 18500 KJ/kg",
+      "desc6": "Densità apparente - non inferiore a 625 kg/m3",
+      "desc7": "Resistenza meccanica - non inferiore al 95%",
+      "price": "Prezzo - da 100 EURO / 1 tonnellata",
+      "img": "img/about-prod1.png" }
+  ],
+  "contacts": {
+    "top": {
+      "title": "I NOSTRI CONTATTI",
+      "desc": "Scrivici o chiamaci: siamo sempre felici di darti una consulenza gratuita e rispondere a qualsiasi domanda."
+  }
+  },
+  "contactsInfo": [
+    {"title": "Galeon Company Office:", "desc": "29000, Ucraina, Khmelnytskyi, str. Bandera, 33 / 2A", "desc1": "E-mail: galeon.teplocom@gmail.com", "desc2": "Telefono: +38 067 311 48 85"},
+    {"title": "Composizione del prodotto:", "desc": "30400, Ucraina, regione di Khmelnytsky, Shepetivka, st. R. Mazunova, 25/2", "desc1": "29000, Ucraina, Khmelnytskyi, str. Ternopilska, 17 / 1E", "desc2": "33010, Ucraina, Rivne, str. Makarova, 16 anni"},
+    {"title1": "I nostri rivenditori", "title": "RAO TERM office:", "desc": "35-326, Polonia, Rzeszow, Str. T. Reitan, 23", "desc1": "E-mail: info@raotherm.com.pl www.raotherm.com.pl", "desc2": "Telefono: +48 532 531 999", "desc3": "Telefono:: +48 723 590 400", "desc4": "Telefono: +48 697 350 789"},
+    {"title": "Composizione del prodotto :", "desc": "36-073, Polonia, Polikowka, Str. Conteggio, 197B"},
+    {"title": "UBF INVEST office:", "desc": "320-026, Polonia, Lublino, ul. F. Chopin, 19/8", "desc1": "E-mail: ubf.pellet@gmail.com  www.pellegreeno.com.pl ", "desc2": "Telefono: +48 662 840 762,", "desc3": "Telefono: +48 669 907 226"}
+    
+    
+  ],
+
+  "contactForm": {
+    "title": "Domande? SCRIVI - RISPONDEREMO",
+    "desc": "Il tuo nome",
+    "desc1": "Numero di telefono",
+    "desc2": "Messaggio",
+    "desc3": "Inviare"
+  },
+  "popUp": {
+    "title": "GRAZIE PER IL MESSAGGIO",
+    "desc": "I nostri responsabili ti contatteranno a breve."
+  },
+  "slider": {
+    "desc": "tecnologia ",
+    "sub": "produzione",
+    "desc1": "sofisticato ",
+    "sub1": "logistica",
+    "desc2": "disponibile ",
+    "sub2": "prezzi",
+    "desc3": "il migliore ",
+    "sub3": "materie prime",
+    "desc4": "conifero ",
+    "sub4": "di alberi"
+  },
+  "slider-block": {
+    "desc": "Materie prime di qualità",
+    "desc1": "Produzione tecnologica",
+    "desc2": "Prezzi convenienti"
+  }
+
+ }

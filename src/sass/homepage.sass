@@ -1,0 +1,167 @@
+.homepage__top
+    margin-bottom: 80px
+    +lg(height, 550px)
+    +sm(padding-top, 70px)
+    +xs(padding-top, 90px)
+    &:after
+        content: ''
+        background: url(/img/homepage-bg.png) no-repeat 50% 0;
+        position: absolute
+        top: 0
+        z-index: -1
+        height: 100%
+        width: 100%
+    &-inner
+        display: grid
+        grid-template-columns: repeat(2, max-content)
+        justify-content: space-around
+        align-items: center
+        +lg(align-items, flex-end)
+        +sm-block() 
+            grid-template-columns: repeat(1, max-content)
+            padding-top: 100px
+        figure
+            +lg(width, 400px)
+            +sm(width, 350px)
+            +xs(width, 300px)
+    &-title
+        color: #ffffff
+        +sm(justify-self, center)
+        h1
+            font-size: 64px
+            font-weight: 500
+            line-height: 76px
+            +lg(font-size, 48px)
+            +sm(font-size, 36px)
+        p
+            font-size: 36px
+            font-weight: normal
+            line-height: 43px
+            +lg(font-size, 26px)
+            +sm(font-size, 20px)
+        
+.homepage__sub
+    background-image: url(/img/homepage-subtop.png)
+    background-position: center
+    background-repeat: no-repeat
+    height: 591px
+    display: flex
+    align-items: center
+    margin-bottom: 80px
+    +xs(margin-bottom, 40px)
+    &-inner
+    &-title
+        max-width: 635px
+        min-height: 485px
+        background: #ffffff
+        border-radius: 50px
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25)
+        padding: 30px 60px
+        margin: 0 auto
+        display: flex
+        flex-flow: column
+        justify-content: center
+        align-items: center
+        +xs(padding, 30px 20px)
+        h3
+            margin-bottom: 40px
+            +xs(margin-bottom, 20px)
+
+        p
+            font-size: 16px
+            line-height: 19px
+            font-weight: normal
+            text-indent: 15px
+            +xs(font-size, 14px)
+            &:nth-of-type(1)
+                margin-bottom: 15px
+            &:nth-of-type(2)
+                margin-bottom: 40px
+.homepage__center
+    position: relative
+    margin-bottom: 80px
+    +xs(margin-bottom, 40px)
+    &:after
+        content: ''
+        background: url(/img/homepage-center.png) no-repeat 50% 0;
+        position: absolute
+        top: 90px
+        z-index: -1
+        height: 100%
+        width: 100%
+    &-inner
+        h3
+            margin: 0 auto 80px auto
+            +xs(margin, 0 auto 40px auto)
+    &-wood
+        display: flex
+        justify-content: space-around
+        align-items: center
+        text-align: center
+        +xs-block()
+            flex-flow: column
+        p
+            font-weight: 500
+            font-size: 22px
+            +xs(font-size, 16px)
+    &-wrapp
+        display: flex
+        flex-flow: column
+        justify-content: center
+        align-items: center
+        figure
+            position: relative
+            cursor: pointer
+            +sm(width, 250px)
+            &:after
+                content: ''
+                background: url(/img/homepage-gradient.png) no-repeat 50% 0;
+                position: absolute
+                top: 41%
+                left: 50%
+                transform: translate(-50%, -50%)
+                z-index: -1
+                height: 100%
+                width: 100%
+                opacity: 0
+                transition: 0.5s
+            &:hover
+                &:after
+                    content: ''
+                    opacity: 1
+                    transition: 0.5s
+.homepage__bottom
+    background-image: url(/img/homepage-bottom.png)
+    background-position: center
+    background-repeat: no-repeat
+    height: 400px
+    display: flex
+    align-items: center
+    margin-bottom: 80px
+    +sm(margin-bottom, 40px)
+    +xs(margin-bottom, 0)
+    &-inner
+    &-title
+        max-width: 635px
+        padding: 80px
+        min-height: 293px
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25)
+        border-radius: 50px
+        text-align: center
+        margin: 0 auto
+        background: #ffffff
+        +xs(padding, 70px 30px)
+        +xss(padding, 70px 10px)
+        p
+            font-size: 20px
+            font-weight: normal
+            +xs(font-size, 16px)
+            &:nth-of-type(2)
+                color: #174b25
+                font-weight: 500
+            &:nth-of-type(3)
+                color: #174b25
+                font-weight: 500
+                margin-bottom: 25px
+.homepage__slider-inner
+    position: relative

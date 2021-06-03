@@ -1,0 +1,139 @@
+{
+  "homepage": {
+    "top": {
+      "title": "Granulés de bois",
+      "desc": "énergie de la nature"
+    },
+    "subTop": {
+       "title": "Société Galeon",
+       "desc": "La société Galeon (Khmelnitsky, Ukraine) est un fabricant fiable de granulés de bois Pellegreeno et Pellegreeno Premium, offrant des produits de haute qualité et un coût favorable pour les granulés.",
+       "desc1": "Vous avez toujours la possibilité d'acheter des pellets auprès d'entrepôts auprès de nos revendeurs en Pologne et en Italie ou de commander des livraisons directes depuis le lieu de production et de recevoir rapidement les marchandises grâce à une logistique réfléchie!",
+       "desc2": "Pour commander"
+    },
+    "center": {
+     "title": "Nos produits",
+     "desc": "Granulés de bois Pellegreeno",
+     "desc1": "Granulés de bois Pellegreeno Premium",
+     "img":   "img/homepage-wood.png",
+     "img1": "img/homepage-premwood.png"
+    },
+    "bottom": {
+     "desc": "Avez-vous besoin de granulés de bois de qualité avec livraison?",
+     "desc1": "Appeler: +38 067 311 48 85",
+     "desc2": "Commentaires"
+    }
+  },
+  
+  "about": {
+    "top": {
+     "title": "À propos de nous",
+     "desc": "La société Galeon (Khmelnitsky, Ukraine) est un fabricant de granulés de bois Pellegreeno et Pellegreeno Premium. Son objectif est d’occuper une place significative sur le marché des granulés de bois de qualité en Pologne et dans l’UE.",
+     "desc1": "La capacité de production est d’environ 2000 tonnes par mois. Tous les processus de production sont contrôlés dans la production de sciure de pin, qui est obtenue en broyant du bois sur le lieu de production des pellets, en passant par un processus de séchage et en granulés. En achetant des pellets Pellegreeno et Pellegreeno Premium, vous avez la garantie de recevoir des produits écologiques.",
+     "desc2": "Galeon a pour objectif de fournir à l'acheteur des produits de la plus haute qualité! Notre équipe travaille quotidiennement à la fabrication de produits conformes à toutes les normes et exigences existantes! Tous les produits sont soumis à un triple contrôle de qualité! Nous travaillons chaque jour pour améliorer toutes les étapes de la production, nous adapter à l’époque, suivre les tendances du marché des équipements de pelletisation afin de fournir à l’acheteur le carburant qui répondra à toutes ses exigences! Nous apportons chaleur et confort à toutes les résidences privées, immeubles de bureaux, hôpitaux, écoles, jardins d'enfants ou locaux industriels, pour que votre séjour soit confortable! Nous aimons notre travail!",
+     "img": "img/big-logo.png"
+    },
+    "center": {
+     "title": "NOS AVANTAGES"
+   }
+  },
+  "aboutList": [
+    {"title": "Partenaire d'affaires fiable", "desc": "Galleon remplit ses obligations intégralement avant tous, à l'exception de ses clients.", "img": "img/about-serv11.png"},
+    {"title": "Haute qualité", "desc": "La société garantit la qualité de toute la gamme. Les produits répondent aux normes européennes en termes de caractéristiques et d'indicateurs clés.", "img": "img/about-serv22.png"},
+    {"title": "Logistique réfléchie", "desc": "La société a la capacité de livrer les marchandises commandées depuis un entrepôt en Pologne ou de livrer directement de la production au client, ce qui réduit le coût final des pellets.", "img": "img/about-serv33.png"},
+    {"title": "Prix abordable", "desc": "Dans nos produits, la haute qualité et le prix optimal des pellets sont harmonieusement combinés.", "img": "img/about-serv44.png"}
+  ],
+  "header": [
+    {"title": "Accueil", "url": "main"},
+    {"title": "À propos de nous", "url": "about"},
+    {"title": "Des produits", "url": "product"},
+    {"title": "Les contacts", "url": "contacts"}
+  ],
+  "product": {
+    "top": {
+      "title": "Nos produits",
+      "desc": "Les granulés de bois Pellegreeno et Pellegreeno Premium sont un combustible respectueux de l'environnement qui est activement utilisé pour produire de la chaleur lorsqu'il est brûlé dans des chaudières à combustible solide.",
+      "desc1": "Les combustibles ligneux sont des sources d’énergie renouvelables, ils sont produits selon la méthode de pressage de la pâte de bois préparée.",
+      "desc2": "Les granulés de bois dans le monde constituent aujourd'hui une alternative intéressante aux combustibles traditionnels, tels que le diesel, le charbon, le bois de chauffage, le gaz naturel, etc.",
+      "img": "img/product-top.png"
+  },
+  "center": {
+      "title": "EMBALLAGE",
+      "desc": "Nous fournissons des pellets Pellegreeno et Pellegreeno Premium dans les conditionnements suivants:",
+      "desc1": "Sacs en polyéthylène pesant 15 kg",
+      "desc2": "1 t de sacs en polypropylène d'un poids de 1 t",
+      "img": "img/product-bag1.png",
+      "img1": "img/product-bag2.png"
+  },
+  "bottom": {
+      "title": "DOCUMENTS DE QUALITÉ",
+      "desc": "Documents de qualité que vous pouvez lire"
+  }
+  },
+  "palletInfo": [
+    {"title": "Granulés de bois Pellegreeno Premium",
+      "desc": "Matières premières: essences de conifères",
+      "desc1": "Diamètre: 6 mm",
+      "desc2": "Longueur - jusqu'à 35 mm",
+      "desc3": "Humidité - pas plus de 8%",
+      "desc4": "Teneur en cendres - pas plus de 0,6%",
+      "desc5": "Chaleur de combustion - pas moins de 18500 KJ/kg",
+      "desc6": "Masse volumique - pas moins de 625 kg/m3",
+      "desc7": "Résistance mécanique - pas moins de 95%",
+      "price": "Prix - à partir de 110 EURO / 1 tonne",
+      "img": "img/about-prod2.png"},
+ 
+     {"title": "Granulés de bois Pellegreeno",
+      "desc": "Matières premières: essences de conifères",
+      "desc1": "Diamètre: 6 mm",
+      "desc2": "Longueur - jusqu'à 35 mm",
+      "desc3": "Humidité - pas plus de 8%",
+      "desc4": "Teneur en cendres - pas plus de 0,8%",
+      "desc5": "Chaleur de combustion - pas moins de 18500 KJ/kg",
+      "desc6": "Masse volumique - pas moins de 625 kg/m3",
+      "desc7": "Résistance mécanique - pas moins de 95%",
+      "price": "Prix - à partir de 100 EURO / 1 tonne",
+      "img": "img/about-prod1.png" }
+  ],
+  "contacts": {
+    "top": {
+      "title": "NOS CONTACTS",
+      "desc": "Écrivez-nous ou appelez-nous: nous serons toujours ravis de vous donner une consultation gratuite et de répondre à vos questions."
+  }
+  },
+  "contactsInfo": [
+    {"title": "Bureau de la société Galeon:", "desc": "29000, Ukraine, Khmelnytskyi, str. Bandera, 33 / 2A", "desc1": "E-mail: galeon.teplocom@gmail.com", "desc2": "Téléphone: +38 067 311 48 85"},
+    {"title": "Composition du produit:", "desc": "30400, Ukraine, région de Khmelnitski, Shepetivka, st. R. Mazunova, 25/2", "desc1": "29000, Ukraine, Khmelnytskyi, str. Ternopilska, 17 / 1E", "desc2": "33010, Ukraine, Rivne, str. Makarova, 16 ans"},
+    {"title1": "Nos revendeurs","title": "Bureau RAO TERM:", "desc": "35-326, Pologne, Rzeszow, Str. T. Reitan, 23 ans", "desc1": "E-mail: info@raotherm.com.pl www.raotherm.com.pl", "desc2": "Téléphone: +48 532 531 999", "desc3": "Тéléphone: +48 723 590 400", "desc4": "Téléphone: +48 697 350 789"},
+    {"title": "Composition du produit :", "desc": "36-073, Pologne, Polikowka, Str. Récupération, 197B"},
+    {"title": "Bureau UBF INVEST:", "desc": "320-026, Pologne, Lublin, ul. F. Chopin, 8/19", "desc1": "E-mail: ubf.pellet@gmail.com  www.pellegreeno.com.pl ", "desc2": "Téléphone: +48 662 840 762", "desc3": "Téléphone:: +48 669 907 226"}
+  ],
+  "contactForm": {
+    "title": "Des questions? ÉCRIRE - NOUS RÉPONDRONS",
+    "desc": "Votre nom",
+    "desc1": "Numéro de téléphone",
+    "desc2": "Message",
+    "desc3": "Envoyer"
+  },
+  "popUp": {
+    "title": "MERCI POUR LE MESSAGE",
+    "desc": "Nos gestionnaires vous contacterons sous peu."
+  },
+  "slider": {
+    "desc": "Technologique ",
+    "sub": "la production",
+    "desc1": "Réfléchie ",
+    "sub1": "la logistique",
+    "desc2": "Disponible ",
+    "sub2": "les prix",
+    "desc3": "le meilleur ",
+    "sub3": "base",
+    "desc4": "conifères ",
+    "sub4": "des arbres"
+  },
+  "slider-block": {
+    "desc": "Matières de qualité",
+    "desc1": "Production technologique",
+    "desc2": "Prix abordables"
+  }
+
+ }

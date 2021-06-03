@@ -1,0 +1,86 @@
+.about__top
+    padding-top: 120px
+    margin-bottom: 80px
+    +xs(margin-bottom, 40px)
+    +sm(padding-top,160px)
+    &:after
+        content: ''
+        background: url(/img/about-bg.png) no-repeat 50% 0;
+        position: absolute
+        top: 55px
+        z-index: -1
+        height: 100%
+        width: 100%
+
+    &-inner
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        align-items: center
+        justify-items: center
+        +md-block()
+            grid-template-columns: 1fr
+        figure
+            +md(width, 350px)
+            +xs(width, 250px)
+
+    &-title
+        padding: 10px 10px 10px 80px
+        +md-block()
+            padding: 0
+            text-align: center
+        h3
+            +md(margin, 0 auto)
+        p
+            padding: 7px 0
+            line-height: 19px
+            font-weight: normal
+            text-indent: 20px
+            +xs(font-size, 14px)
+.about__center
+    margin-bottom: 80px
+    &-inner
+        h3
+            padding-left: 80px
+            margin-bottom: 40px
+            +md-block()
+                padding: 0
+                margin: 0 auto 80px auto
+            +xs(margin, 0 auto 40px auto)
+    &-item
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        &:nth-child(even) .about__center-txt
+            order: 1
+            +md(order, 0)
+        +md-block()
+            flex-flow: column
+            text-align: center
+
+        figure
+            width: 502px
+            +xs(width, 300px)
+    &-txt
+        flex-basis: 30%
+        line-height: 26px
+        h5
+            font-weight: 500
+            font-size: 22px
+            margin-bottom: 15px
+            +xs(font-size, 16px)
+        p
+            font-weight: normal
+            font-size: 18px
+            +xs(font-size, 14px)
+.about__bottom
+    margin-bottom: 80px
+    position: relative
+    &:after
+        content: ""
+        background: url(/img/product-bottom-bg.png) no-repeat 50% 0
+        position: absolute
+        bottom: 0
+        z-index: -1
+        height: 300px
+        width: 100%
+    +xs(margin-bottom, 40px)
